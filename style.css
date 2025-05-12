@@ -1,18 +1,17 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Courier New', monospace; /* Robotic feel */
+    background-color: #d8f3dc; /* Light green background */
+    color: #1b4332;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-
 .dark-mode {
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #004d40; /* Dark green for dark mode */
+    color: #aaffaa;
 }
 
 .hero {
-    background: linear-gradient(135deg, #007bff, #6610f2);
+    background: linear-gradient(135deg, #81c784, #388e3c); /* Green gradient */
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -21,10 +20,14 @@ body {
 .hero h1 {
     font-size: 3rem;
     font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .hero p {
     font-size: 1.5rem;
+    font-style: italic;
+    color: #e8f5e9;
 }
 
 /* Sections */
@@ -32,27 +35,32 @@ body {
     margin-top: 50px;
     padding: 30px 0;
     text-align: center;
+    background-color: #e9f5ec; /* Slightly lighter green */
 }
 
-
 #about h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Courier New', monospace;
     font-size: 2rem;
     font-weight: 700;
-    color: #007bff;
+    color: #2e7d32;
 }
 
 #about p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier New', monospace;
     font-size: 1.2rem;
     font-weight: 400;
-    color: #555;
+    color: #2f4f4f;
     line-height: 1.6;
 }
 
 .card {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.dark-mode .card {
+    background-color: #2e7d32;
 }
 
 .card img {
@@ -64,3 +72,4 @@ body {
         font-size: 2.5rem;
     }
 }
+
