@@ -1,17 +1,17 @@
 body {
-    font-family: 'Courier New', monospace; /* Robotic feel */
-    background-color: #d8f3dc; /* Light green background */
+    font-family: 'Courier New', monospace;
+    background-color: #d8f3dc; 
     color: #1b4332;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode {
-    background-color: #004d40; /* Dark green for dark mode */
+    background-color: #004d40; 
     color: #aaffaa;
 }
 
 .hero {
-    background: linear-gradient(135deg, #81c784, #388e3c); /* Green gradient */
+    background: linear-gradient(135deg, #81c784, #388e3c);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -30,12 +30,11 @@ body {
     color: #e8f5e9;
 }
 
-/* Sections */
 .section {
     margin-top: 50px;
     padding: 30px 0;
     text-align: center;
-    background-color: #e9f5ec; /* Slightly lighter green */
+    background-color: #e9f5ec; 
 }
 
 #about h2 {
